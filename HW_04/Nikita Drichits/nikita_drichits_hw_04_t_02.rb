@@ -23,7 +23,7 @@ def create_magic_number(pool, timeout)
 end
 
 def task_4_2(msg)
-  if message.empty?
+  if msg.empty?
     {}
   else
     Hash[main_keys_to_sym(msg).zip(sub_keys_and_pairs_ruse(msg))] \
